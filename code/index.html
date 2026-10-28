@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Sistema planetario IG</title>
+    <meta charset="UTF-8" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background: #02030a;
+      }
+      /* Marco de la mini-vista (el tamaño lo fija el script) */
+      #marco {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        z-index: 4;
+        box-sizing: border-box;
+        border: 2px solid rgba(255, 255, 255, 0.6);
+        color: #fff;
+        font: 11px monospace;
+        padding: 3px 6px;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Botones: el script les asocia su comportamiento por identificador -->
+    <button
+      type="button"
+      style="z-index: 12345; position: absolute; left: 10px; bottom: 10px"
+      id="vista"
+    >
+      Cambiar vista
+    </button>
+    <button
+      type="button"
+      style="z-index: 12345; position: absolute; left: 10px; bottom: 45px"
+      id="minivista"
+    >
+      Mini-vista on/off
+    </button>
+    <div id="marco"></div>
+
+    <script src="/src/script.js"></script>
+  </body>
+</html>
