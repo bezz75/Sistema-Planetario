@@ -120,6 +120,17 @@ Una `PointLight` dentro del Sol ilumina todo el sistema, más una `AmbientLight`
 
 Dos cámaras (`camera` para la general y `camNave` para la nave) con sus controles. Solo está activo el control de la vista principal. La segunda cámara se dibuja en un **puerto de vista** reducido con `setViewport` y `setScissor` (S7), de modo que ambas se ven a la vez.
 
+Captura tomada de la demo visualizando la **vista general:**
+
+![Vista General](/images/CapturaVistaGeneral.png)
+
+
+Captura tomada de la demo visualizando la **vista desde la nave:**
+
+![Vista General](/images/CapturaVistaNave.png)
+
+
+
 ### Fichas didácticas
 
 Al soltar el ratón sin haberlo movido (menos de 5 píxeles, para no confundir un clic con un arrastre) se lanza un `Raycaster` desde la cámara activa. Las lunas se incluyen en la prueba de impacto para que tapen lo que hay detrás, aunque no tienen ficha. Los textos y las fuentes están separados en `info.js`.
