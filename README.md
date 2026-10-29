@@ -6,8 +6,8 @@ Práctica de **Informática Gráfica** - Grado en Ingeniería Informática - Uni
 
 | | |
 |---|---|
-| 🎬 **Vídeo de la ejecución** | [enlace al vídeo] |
-| 🌐 **Demo en línea** | [enlace a CodeSandbox / GitHub Pages] |
+| 🎬 **Vídeo de la ejecución** | [[enlace al vídeo]](https://youtu.be/ZkaM3xOfgXY) |
+| 🌐 **Demo en línea** | [[enlace a CodeSandbox]](https://codesandbox.io/p/sandbox/6t359f) |
 
 ---
 
